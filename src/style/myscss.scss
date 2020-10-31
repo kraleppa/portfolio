@@ -1,7 +1,8 @@
 @import 'header';
 @import 'palette';
 @import 'about_me';
-@import "projects";
+@import 'projects';
+@import 'project';
 
 .all{
   color: $darkblue;
@@ -33,13 +34,5 @@
     color: $indigo;
     font-size: 1.5rem;
   }
-}
-
-.dot {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
 }
 
