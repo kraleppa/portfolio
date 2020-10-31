@@ -31,6 +31,9 @@ class Header extends React.Component {
                             </a>
                         </div>
                     </div>
+                    <div className="row-cols-12 text-center mt-5">
+                        <h4>+48 502 748 827</h4>
+                    </div>
                 </div>
 
             </div>

@@ -4,6 +4,31 @@
 .all{
   color: $darkblue;
   font-family: 'Karla';
+
+  h1 {
+    color: $indigo;
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    color: $indigo;
+    font-size: 3rem;
+  }
+
+  h3 {
+    color: $indigo;
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    color: $indigo;
+    font-size: 2rem;
+  }
+
+  h5 {
+    color: $indigo;
+    font-size: 1.5rem;
+  }
 }
 
 .dot {
@@ -13,3 +38,4 @@
   border-radius: 50%;
   display: inline-block;
 }
+
