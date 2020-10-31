@@ -10,7 +10,7 @@ class Header extends React.Component {
                         <div className="col-12 mt-5">
                             <figure>
                                 <img src={myPhoto} alt="myPhoto" className="rounded-circle mx-auto d-block myPhoto"/>
-                                <figcaption className="text-center mt-4"><h1>Krzysztof Nalepa</h1></figcaption>
+                                <figcaption className="text-center mt-5"><h1>Krzysztof Nalepa</h1></figcaption>
                             </figure>
                         </div>
                     </div>
@@ -30,9 +30,6 @@ class Header extends React.Component {
                                 <img src={gmailIcon} alt="gmailIcon" className="icon mx-auto d-block"/>
                             </a>
                         </div>
-                    </div>
-                    <div className="row-cols-12 text-center mt-5">
-                        <h4>+48 502 748 827</h4>
                     </div>
                 </div>
 

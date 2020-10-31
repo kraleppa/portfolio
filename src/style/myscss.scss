@@ -1,9 +1,11 @@
 @import 'header';
 @import 'palette';
+@import 'about_me';
 
 .all{
   color: $darkblue;
   font-family: 'Karla';
+  font-size: 1.4rem;
 
   h1 {
     color: $indigo;
@@ -18,6 +20,7 @@
   h3 {
     color: $indigo;
     font-size: 2.5rem;
+    font-style: italic;
   }
 
   h4 {

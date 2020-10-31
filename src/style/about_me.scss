@@ -1,0 +1,44 @@
+@import 'palette';
+
+.about_me {
+  background: $snow;
+
+  .second-block{
+    border-radius: 10px;
+    background: $indigo;
+    color: $snow;
+    text-align: right;
+    overflow: auto;
+    img {
+      height: 25vh;
+      width: auto;
+      float: left;
+      margin-right: 5rem;
+
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  .third-block {
+    border: 2px solid $darkblue;
+    border-radius: 10px;
+    color: $darkblue;
+    text-align: left;
+    overflow: auto;
+    img {
+      height: 25vh;
+      width: auto;
+      float: right;
+      margin-left: 5rem;
+
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+}
+
