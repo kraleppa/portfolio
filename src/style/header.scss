@@ -2,15 +2,23 @@
 
 .header {
   background: $snow;
+
+  h1 {
+    color: $indigo;
+    font-size: 3.5rem;
+  }
+
+  .myPhoto {
+    height: 25vh;
+    width: auto;
+    border: 2px solid $indigo;
+  }
+
+  .icon {
+    height: 3rem;
+    width: auto;
+  }
+
 }
 
-.myPhoto {
-  height: 25vh;
-  width: auto;
-  border: 2px solid $indigo;
-}
 
-.icon {
-  height: 3rem;
-  width: auto;
-}
