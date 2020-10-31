@@ -23,8 +23,9 @@
   }
 
   .third-block {
-    border: 2px solid $indigo;
     border-radius: 10px;
+    background: $darkblue;
+    color: $snow;
     text-align: left;
     overflow: auto;
     img {

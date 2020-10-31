@@ -1,5 +1,6 @@
 import React from 'react'
 import cernPhoto from '../static_data/cern.jpg'
+import guitarPhoto from '../static_data/guitar.jpg'
 
 class AboutMe extends React.Component {
     render() {
@@ -17,7 +18,6 @@ class AboutMe extends React.Component {
                             Hi, my name is Krzysztof (Christopher) I am currently studying Computer Science at AGH University of Science and Technology.
                             I am a man of many interests with a head full of ideas and motivation to implement them.
                             Passionate about software development and solving problems.
-                            Creative person in many different ways.
                         </div>
                     </div>
 
@@ -38,7 +38,7 @@ class AboutMe extends React.Component {
                     <div className="row-cols-12 ">
 
                         <div className="third-block p-3 mt-4 mr-md-5">
-                            <img src={cernPhoto} alt="cernPhoto" className="d-none d-sm-none d-md-block"/>
+                            <img src={guitarPhoto} alt="cernPhoto" className="d-none d-sm-none d-md-block"/>
                             <p>
                                 Besides programming and science I have plenty of other hobbies, like swimming, video games or cycling,
                                 but my biggest love is music.
@@ -46,7 +46,7 @@ class AboutMe extends React.Component {
                                 I am also interested in music production and composition.
                                 My adventure with music really improved my creativity.
                                 <br/>
-                                By the way, I am a big fan of Pink Floyd  :)
+                                Additionally, I am a big fan of Pink Floyd
                             </p>
                         </div>
                     </div>
