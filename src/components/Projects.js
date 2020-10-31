@@ -5,7 +5,7 @@ import {projects} from '../static_data/projects'
 
 class Projects extends React.Component{
     render() {
-        const htmlList = projects.map(project => <Project project={project}/>)
+        const htmlList = projects.map(project => <Project project={project} key={project.id}/>)
         return (
             <div className="projects pt-5">
                 <div className="container">

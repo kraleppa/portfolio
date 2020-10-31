@@ -3,9 +3,9 @@ import Language from "./Language";
 
 class Project extends React.Component {
     render() {
-        const languagesList = this.props.project.languages.map(language => <Language language = {language} />)
+        const languagesList = this.props.project.languages.map(language => <Language language = {language} key={language.name} />)
         return (
-            <div className="col-md-6 project">
+            <div className="col-md-6 project mb-4">
                 <div className="card" >
                     <div className="card-header mb-4">
                         {this.props.project.name} <br/>
@@ -13,8 +13,7 @@ class Project extends React.Component {
                     </div>
                     <img className="card-img-top" src={this.props.project.image_url} alt="Card image cap" />
                         <div className="card-body">
-                            <p className="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p className="card-text description">{this.props.project.description}</p>
                         </div>
                 </div>
             </div>

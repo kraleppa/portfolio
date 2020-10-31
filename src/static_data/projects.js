@@ -8,19 +8,62 @@ export const projects = [
         image_url: 'https://github.com/kraleppa/pathfinding-visualization/raw/master/img/astar.gif',
         languages: [language.JAVA],
         end_date: new Date(2020, 7, 30),
-        description: "Desktop application for pathfinding algorithms visualization.",
+        description: "Used Java to create a desktop application that allows users to test the most popular pathfinding algorithms in different situations. This project improved my understanding of pathfinding algorithms and taught me basics of JavaFX",
         size: 5
     },
     {
         id: 2,
         name: 'Book manager',
-        github_url: 'https://github.com/kraleppa/pathfinding-visualization',
+        github_url: 'https://github.com/kraleppa/book-manager',
         image_url: 'https://github.com/kraleppa/book-manager/raw/master/screen.png',
-        languages: [language.JAVA, language.ELIXIR],
-        end_date: new Date(2020, 7, 30),
-        description: "Desktop application for pathfinding algorithms visualization.",
-        size: 5
+        languages: [language.ELIXIR, language.JS],
+        end_date: new Date(2020, 5, 18),
+        description: "Used Elixir to create a GraphQL API for web application written in JavaScript that allows users to store and manage their books collection. Thanks to this project I understood GraphQL.",
+        size: 4
     },
+    {
+        id: 3,
+        name: 'Conferences',
+        github_url: 'https://github.com/kraleppa/conferences',
+        image_url: 'https://github.com/kraleppa/conferences/raw/master/schemat%20bazy.PNG',
+        languages: [language.SQL],
+        end_date: new Date(2020, 1, 20),
+        description: "Used MS SQL Server to create a database system for company which organizes conferences. Project was a part of database classes. This project taught me a lot about relational database systems.",
+        size: 8
+    },
+    {
+        id: 4,
+        name: 'Become a typing machine',
+        github_url: 'https://github.com/kraleppa/become-typing-machine',
+        image_url: 'https://github.com/kraleppa/become-typing-machine/raw/master/ReadmeImg/bcm1.png',
+        languages: [language.PYTHON],
+        end_date: new Date(2020, 5, 30),
+        description: "Used Python to create a desktop application for fast-typing practice with web features. Project was a part of Python classes. This project gave me fundamental knowledge about creating software in Python ",
+        size: 6
+    },
+    {
+        id: 5,
+        name: 'Covid statistics',
+        github_url: 'https://github.com/kraleppa/coronavirus-stats',
+        image_url: 'https://github.com/kraleppa/coronavirus-stats/raw/master/ReadmeImg/coviddata1.png',
+        languages: [language.PYTHON],
+        end_date: new Date(2020, 5, 11),
+        description: "Used Python and Flask to create a simple web application which shows statistics about covid epidemic in Poland. This project taught me more about Flask and web applications in Python.",
+        size: 2
+    },
+    {
+        id: 6,
+        name: 'XD Eats',
+        github_url: 'https://github.com/Better-Team-XD/hacknarok-web',
+        image_url: 'https://github.com/Better-Team-XD/hacknarok-web/raw/master/screenshots/usecase.gif',
+        languages: [language.JAVA, language.JS],
+        end_date: new Date(2020, 8, 30),
+        description: "Used Python and React.js to create a web application that helps users to find out recipe for meal that they can prepare. This project won for my team third place during the 4th edition of Hacknarök hackathon.",
+        size: 5
+    }
+
+
+
 
 ]
 

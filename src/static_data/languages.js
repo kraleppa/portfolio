@@ -22,5 +22,5 @@ export const language = {
     ERLANG: {
         name: 'Erlang',
         color: '#b83998'
-    }
+    },
 }
