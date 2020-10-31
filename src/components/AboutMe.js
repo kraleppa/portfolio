@@ -28,7 +28,8 @@ class AboutMe extends React.Component {
                             <p>
                             I have been always interested in science and new technologies since primary school.
                             My first meeting with programming took place in high school during computer science classes.
-                            Since that lesson I knew that this is my future.
+                            Since that lesson I knew that this is my future. <br/>
+                            Currently a big fan of Java and Elixir.
                             My goal is to become full-stack developer by improving my skills from area of software development.
                             </p>
                         </div>
@@ -45,21 +46,10 @@ class AboutMe extends React.Component {
                                 I am also interested in music production and composition.
                                 My adventure with music really improved my creativity.
                                 <br/>
-                                <br/>
-                                By the way - big Pink Floyd fan! :)
-
-
-
-
+                                By the way, I am a big fan of Pink Floyd  :)
                             </p>
                         </div>
                     </div>
-
-
-
-
-
-
                 </div>
             </div>
         )
