@@ -1,0 +1,16 @@
+@import "palette";
+
+.header {
+  background: $snow;
+}
+
+.myPhoto {
+  height: 25vh;
+  width: auto;
+  border: 2px solid $indigo;
+}
+
+.icon {
+  height: 3rem;
+  width: auto;
+}
