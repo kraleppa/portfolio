@@ -26,7 +26,7 @@ class AboutMe extends React.Component {
                         <div className="second-block p-3 mt-4 ml-md-5">
                             <img src={cernPhoto} alt="cernPhoto" className="d-none d-sm-none d-md-block"/>
                             <p>
-                            I have been always interested in science and new technologies since primary school.
+                            I have always been interested in science and new technologies since primary school.
                             My first meeting with programming took place in high school during computer science classes.
                             Since that lesson I knew that this is my future. <br/>
                             Currently a big fan of Java and Elixir.

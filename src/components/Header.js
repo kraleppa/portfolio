@@ -10,7 +10,10 @@ class Header extends React.Component {
                         <div className="col-12 mt-5">
                             <figure>
                                 <img src={myPhoto} alt="myPhoto" className="rounded-circle mx-auto d-block myPhoto"/>
-                                <figcaption className="text-center mt-5"><h1>Krzysztof Nalepa</h1></figcaption>
+                                <figcaption className="text-center mt-5">
+                                    <h1>Krzysztof Nalepa</h1>
+                                    <h3>AGH University of Science and Technology</h3>
+                                </figcaption>
                             </figure>
                         </div>
                     </div>
