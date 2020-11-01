@@ -17,7 +17,18 @@
   .description {
     font-size: 0.8em;
     text-align: justify;
-
   }
+
+  .name {
+    display: inline;
+    float: left;
+  }
+
+  .date {
+    display: inline;
+    float: right;
+    font-style: italic;
+  }
+
 
 }

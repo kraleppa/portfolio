@@ -4,7 +4,7 @@ export const projects = [
     {
         id: 2,
         name: 'XD Eats',
-        github_urls: ['https://github.com/Better-Team-XD/hacknarok-web', 'https://github.com/Better-Team-XD/xd-eats-back-v2'],
+        github_urls: ['https://github.com/Better-Team-XD/xd-eats-back-v2', 'https://github.com/Better-Team-XD/hacknarok-web'],
         image_url: 'https://github.com/Better-Team-XD/hacknarok-web/raw/master/screenshots/usecase.gif',
         languages: [language.PYTHON, language.JS],
         end_date: new Date(2020, 8, 30),
@@ -44,7 +44,7 @@ export const projects = [
     {
         id: 6,
         name: 'Conferences',
-        github_urls: 'https://github.com/kraleppa/conferences',
+        github_urls: ['https://github.com/kraleppa/conferences'],
         image_url: 'https://github.com/kraleppa/conferences/raw/master/schemat%20bazy.PNG',
         languages: [language.SQL],
         end_date: new Date(2020, 1, 20),
