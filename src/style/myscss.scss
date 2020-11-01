@@ -34,5 +34,17 @@
     color: $indigo;
     font-size: 1.5rem;
   }
+
+  .btn-primary {
+    background-color: $indigo;
+    color: $snow;
+    border-color: $indigo;
+  }
+
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-default{
+    background-color: transparent;
+    color: $indigo;
+    border-color: $indigo;
+  }
 }
 

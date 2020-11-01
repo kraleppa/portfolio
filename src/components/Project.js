@@ -13,6 +13,15 @@ class Project extends React.Component {
                         <br/>
                         {languagesList}
                     </div>
+                    {this.props.project.hasOwnProperty("badge") &&
+                        <figure>
+                            <a href={this.props.project.badge.url} target="_blank" rel="noreferrer">
+                                <img className="badge-image" src={this.props.project.badge.image_url} alt={this.props.project.badge.image_url}/>
+                            </a>
+                            <figcaption>{this.props.project.badge.description}</figcaption>
+                        </figure>
+
+                    }
                     <img className="card-img-top" src={this.props.project.image_url} alt={this.props.project.id} />
                     <div className="card-body">
                         <p className="card-text description">{this.props.project.description}</p>
@@ -20,13 +29,13 @@ class Project extends React.Component {
                     </div>
                     <div className="card-body text-center">
                         {this.props.project.github_urls.length === 1 &&
-                            <a type="button" className="btn btn-primary" href={this.props.project.github_urls[0]}>Code</a>
+                            <a type="button" className="btn btn-primary" href={this.props.project.github_urls[0]} target="_blank" rel="noreferrer">Code</a>
                         }
 
                         {this.props.project.github_urls.length === 2 &&
                             <div>
-                                <a type="button" className="btn btn-primary mr-5" href={this.props.project.github_urls[0]}>Backend code</a>
-                                <a type="button" className="btn btn-primary" href={this.props.project.github_urls[1]}>Frontend code</a>
+                                <a type="button" className="btn btn-primary mr-5" href={this.props.project.github_urls[0]} target="_blank" rel="noreferrer">Backend code</a>
+                                <a type="button" className="btn btn-primary" href={this.props.project.github_urls[1]} target="_blank" rel="noreferrer">Frontend code</a>
                             </div>
                         }
                     </div>

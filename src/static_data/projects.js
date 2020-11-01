@@ -9,7 +9,12 @@ export const projects = [
         languages: [language.PYTHON, language.JS],
         end_date: new Date(2020, 8, 30),
         description: "Used Python and React.js to create a web application that helps users to find out recipe for meal that they can prepare. This project won for my team third place during the 4th edition of Hacknarök hackathon.",
-        size: 5
+        size: 5,
+        badge: {
+            image_url: 'https://scontent.fktw2-1.fna.fbcdn.net/v/t1.0-9/83603732_780553515777877_1210386367436029952_o.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=48ztcWZioSYAX9Skbkn&_nc_ht=scontent.fktw2-1.fna&oh=96dc76c2194e0b773fcc36130b5160ec&oe=5FC63168',
+            url: 'https://hacknarok.eestec.pl/',
+            description: '3rd place award'
+        }
     },
     {
         id: 3,

@@ -30,5 +30,41 @@
     font-style: italic;
   }
 
+  .card-header {
+    background: $darkblue;
+    color: $snow;
+  }
+
+  figure{
+    margin-top: 30%;
+    margin-left: 86%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+  }
+
+  figcaption{
+    background: $darkblue;
+    border-radius: 1rem;
+    color: $snow;
+    text-align: center;
+    font-size: 0.9rem
+  }
+
+  .badge-image{
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+
+
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid $darkblue;
+  }
+
+  .badge-image:hover{
+    filter: blur(2px);
+    transition: 100ms;
+  }
+
 
 }
