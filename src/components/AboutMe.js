@@ -45,8 +45,7 @@ class AboutMe extends React.Component {
                                 I have been playing a guitar since high school and I am going to learn playing a piano.
                                 I am also interested in music production and composition.
                                 My adventure with music really improved my creativity.
-                                <br/>
-                                Additionally, I am a big fan of Pink Floyd
+
                             </p>
                         </div>
                     </div>
