@@ -1,13 +1,15 @@
 @import 'header';
 @import 'palette';
 @import 'about_me';
-@import 'projects';
 @import 'project';
+@import 'resume';
+@import 'footer';
 
 .all{
   color: $darkblue;
   font-family: 'Karla';
   font-size: 1.4rem;
+  background: $snow;
 
   h1 {
     color: $indigo;
