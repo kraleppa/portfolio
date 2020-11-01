@@ -24,3 +24,15 @@ export const language = {
         color: '#b83998'
     },
 }
+
+export const parseString = (string) => {
+    switch (string) {
+        case 'JAVA': return language.JAVA;
+        case 'JS': return language.JS;
+        case 'PYTHON': return language.PYTHON;
+        case 'SQL': return language.SQL;
+        case 'ELIXIR': return language.ELIXIR;
+        case 'ERLANG': return language.ERLANG;
+        default: return null;
+    }
+}

@@ -11,7 +11,7 @@ class Project extends React.Component {
                         {this.props.project.name} <br/>
                         {languagesList}
                     </div>
-                    <img className="card-img-top" src={this.props.project.image_url} alt="Card image cap" />
+                    <img className="card-img-top" src={this.props.project.image_url} alt={this.props.project.id} />
                         <div className="card-body">
                             <p className="card-text description">{this.props.project.description}</p>
                         </div>
