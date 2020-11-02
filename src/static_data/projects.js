@@ -29,7 +29,7 @@ export const projects = [
         languages: [language.PYTHON],
         end_date: new Date(2020, 4, 30),
         description: "Used Python to create a desktop application for fast-typing practice with web features. Project was a part of Python classes. This project gave me fundamental knowledge about creating software in Python ",
-        size: 6
+        size: 5
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ export const projects = [
         languages: [language.JAVA],
         end_date: new Date(2020, 6, 30),
         description: "Used Java to create a desktop application that allows users to test the most popular pathfinding algorithms in different situations. This project improved my understanding of pathfinding algorithms and taught me basics of JavaFX",
-        size: 5
+        size: 6
     },
     {
         id: 3,
@@ -53,7 +53,7 @@ export const projects = [
         languages: [language.JAVA],
         end_date: new Date(2020, 4, 26),
         description: "Used Java with Hibernate and Spark to create a backend for eRecruitment web application. Project was a part of database classes. This project improved my knowledge about ORMs and creating REST API in Java.",
-        size: 6
+        size: 7
     },
     {
         id: 6,
@@ -77,7 +77,7 @@ export const projects = [
         languages: [language.SQL],
         end_date: new Date(2020, 0, 20),
         description: "Used MS SQL Server to create a database system for company which organizes conferences. Project was a part of database classes. This project taught me a lot about relational database systems.",
-        size: 8
+        size: 9
     },
 
     {
