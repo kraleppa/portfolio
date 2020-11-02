@@ -4,11 +4,13 @@ import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Footer from "./Footer";
+import MyNavbar from "./MyNavbar";
 
 class App extends React.Component {
     render() {
         return (
-            <div className="all">
+            <div className="all" id="PageTop">
+                <MyNavbar />
                 <Header/>
                 <AboutMe />
                 <Projects />

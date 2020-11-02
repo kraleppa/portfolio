@@ -5,7 +5,7 @@ import guitarPhoto from '../static_data/guitar.jpg'
 class AboutMe extends React.Component {
     render() {
         return (
-            <div className="about_me pt-5">
+            <div className="about_me pt-5" id="AboutMe">
 
                 <div className="container">
 

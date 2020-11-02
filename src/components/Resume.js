@@ -4,7 +4,7 @@ import {resumeLink} from "../static_data/data";
 class Resume extends React.Component {
     render() {
         return (
-            <div className="resume">
+            <div className="resume mb-5" id="Resume">
                 <div className="container">
                     <div className="row-cols-12 mb-4">
                         <h3>Resume</h3>

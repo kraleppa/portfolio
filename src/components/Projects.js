@@ -46,7 +46,7 @@ class Projects extends React.Component{
             )
 
         return (
-            <div className="projects pt-5">
+            <div className="projects pt-5" id="Projects">
                 <div className="container">
                     <div className="row-cols-12 mb-4">
                         <h3>Projects</h3>
