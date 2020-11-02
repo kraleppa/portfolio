@@ -9,7 +9,7 @@ import MyNavbar from "./MyNavbar";
 class App extends React.Component {
     render() {
         return (
-            <div className="all" id="PageTop">
+            <div className="all" id="Home">
                 <MyNavbar />
                 <Header/>
                 <AboutMe />
