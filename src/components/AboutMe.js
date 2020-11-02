@@ -15,8 +15,8 @@ class AboutMe extends React.Component {
 
                     <div className="row-cols-12">
                         <div className="first-block">
-                            Hi, my name is Krzysztof (Christopher) I am currently studying Computer Science at AGH University of Science and Technology.
-                            I am a man of many interests with a head full of ideas and motivation to implement them.
+                            Hi, my name is Krzysztof I am currently studying Computer Science at AGH University of Science and Technology.
+                            A man of many interests with a head full of ideas and motivation to implement them.
                             Passionate about software development and solving problems.
                         </div>
                     </div>
@@ -24,9 +24,9 @@ class AboutMe extends React.Component {
 
                     <div className="row-cols-12 ">
                         <div className="second-block p-3 mt-4 ml-md-5">
-                            <img src={cernPhoto} alt="cernPhoto" className="d-none d-sm-none d-md-block"/>
+                            <img src={cernPhoto} alt="cernPhoto" className="d-block"/>
                             <p>
-                            I have always been interested in science and new technologies since primary school.
+                            I have been interested in science and new technologies since primary school.
                             My first meeting with programming took place in high school during computer science classes.
                             Since that lesson I knew that this is my future. <br/>
                             Currently a big fan of Java and Elixir.
@@ -38,7 +38,7 @@ class AboutMe extends React.Component {
                     <div className="row-cols-12 ">
 
                         <div className="third-block p-3 mt-4 mr-md-5">
-                            <img src={guitarPhoto} alt="cernPhoto" className="d-none d-sm-none d-md-block"/>
+                            <img src={guitarPhoto} alt="cernPhoto" className="d-block"/>
                             <p>
                                 Besides programming and science I have plenty of other hobbies, like swimming, video games or cycling,
                                 but my biggest love is music.
