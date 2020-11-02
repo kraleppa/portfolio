@@ -4,7 +4,10 @@ export const projects = [
     {
         id: 2,
         name: 'XD Eats',
-        github_urls: ['https://github.com/Better-Team-XD/xd-eats-back-v2', 'https://github.com/Better-Team-XD/hacknarok-web'],
+        buttons: [
+                {name: 'Backend code', url: 'https://github.com/Better-Team-XD/xd-eats-back-v2'},
+                {name: 'Frontend code', url: 'https://github.com/Better-Team-XD/hacknarok-web'}
+            ],
         image_url: 'https://github.com/Better-Team-XD/hacknarok-web/raw/master/screenshots/usecase.gif',
         languages: [language.PYTHON, language.JS],
         end_date: new Date(2020, 8, 30),
@@ -17,9 +20,11 @@ export const projects = [
         }
     },
     {
-        id: 3,
+        id: 5,
         name: 'Become a typing machine',
-        github_urls: ['https://github.com/kraleppa/become-typing-machine'],
+        buttons: [
+            {name: 'Code', url: 'https://github.com/kraleppa/become-typing-machine'},
+        ],
         image_url: 'https://github.com/kraleppa/become-typing-machine/raw/master/ReadmeImg/bcm1.png',
         languages: [language.PYTHON],
         end_date: new Date(2020, 5, 30),
@@ -29,7 +34,9 @@ export const projects = [
     {
         id: 4,
         name: 'Pathfinding visualization',
-        github_urls: ['https://github.com/kraleppa/pathfinding-visualization'],
+        buttons: [
+            {name: 'Code', url: 'https://github.com/kraleppa/pathfinding-visualization'},
+        ],
         image_url: 'https://github.com/kraleppa/pathfinding-visualization/raw/master/img/astar.gif',
         languages: [language.JAVA],
         end_date: new Date(2020, 7, 30),
@@ -37,9 +44,23 @@ export const projects = [
         size: 5
     },
     {
-        id: 5,
+        id: 3,
+        name: 'eRecruitment',
+        buttons: [
+            {name: 'Code', url: 'https://github.com/kraleppa/e-recruitment'},
+        ],
+        image_url: 'https://github.com/szarbartosz/eRecruitment/raw/master/diagram.png',
+        languages: [language.JAVA],
+        end_date: new Date(2020, 5, 26),
+        description: "Used Java with Hibernate and Spark to create a backend for eRecruitment web application. Project was a part of database classes. This project improved my knowledge about ORMs and creating REST API in Java.",
+        size: 6
+    },
+    {
+        id: 6,
         name: 'Book manager',
-        github_urls: ['https://github.com/kraleppa/book-manager'],
+        buttons: [
+            {name: 'Code', url: 'https://github.com/kraleppa/book-manager'},
+        ],
         image_url: 'https://github.com/kraleppa/book-manager/raw/master/screen.png',
         languages: [language.ELIXIR, language.JS],
         end_date: new Date(2020, 5, 18),
@@ -47,9 +68,11 @@ export const projects = [
         size: 4
     },
     {
-        id: 6,
+        id: 7,
         name: 'Conferences',
-        github_urls: ['https://github.com/kraleppa/conferences'],
+        buttons: [
+            {name: 'Code', url: 'https://github.com/kraleppa/conferences'},
+        ],
         image_url: 'https://github.com/kraleppa/conferences/raw/master/schemat%20bazy.PNG',
         languages: [language.SQL],
         end_date: new Date(2020, 1, 20),
@@ -58,13 +81,29 @@ export const projects = [
     },
 
     {
-        id: 7,
+        id: 9,
         name: 'Covid statistics',
-        github_urls: ['https://github.com/kraleppa/coronavirus-stats'],
+        buttons: [
+            {name: 'Code', url: 'https://github.com/kraleppa/coronavirus-stats'},
+        ],
         image_url: 'https://github.com/kraleppa/coronavirus-stats/raw/master/ReadmeImg/coviddata1.png',
         languages: [language.PYTHON],
         end_date: new Date(2020, 5, 11),
         description: "Used Python and Flask to create a simple web application which shows statistics about covid epidemic in Poland. This project taught me more about Flask and web applications in Python.",
+        size: 2
+    },
+
+    {
+        id: 8,
+        name: 'IT website',
+        buttons: [
+            {name: 'Code', url: 'https://github.com/kraleppa/bootstrap-website'},
+            {name: 'Preview', url: 'https://kraleppa.github.io/bootstrap-website/'}
+        ],
+        image_url: 'https://github.com/kraleppa/bootstrap-website/blob/master/IT/presentation.gif?raw=true',
+        languages: [language.HTML],
+        end_date: new Date(2019, 11, 20),
+        description: "Used bootstrap to create a static website for imaginary IT company. Project was a part of web application classes. This project gave me basic knowledge about bootstrap and creating websites.",
         size: 2
     },
 

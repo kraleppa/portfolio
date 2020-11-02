@@ -28,14 +28,14 @@ class Project extends React.Component {
 
                     </div>
                     <div className="card-body text-center">
-                        {this.props.project.github_urls.length === 1 &&
-                            <a type="button" className="btn btn-primary mt-1" href={this.props.project.github_urls[0]} target="_blank" rel="noreferrer">Code</a>
+                        {this.props.project.buttons.length === 1 &&
+                            <a type="button" className="btn btn-primary mt-1" href={this.props.project.buttons[0].url} target="_blank" rel="noreferrer">{this.props.project.buttons[0].name}</a>
                         }
 
-                        {this.props.project.github_urls.length === 2 &&
+                        {this.props.project.buttons.length === 2 &&
                             <div>
-                                <a type="button" className="btn btn-primary mr-md-5 mr-1 mt-1" href={this.props.project.github_urls[0]} target="_blank" rel="noreferrer">Backend code</a>
-                                <a type="button" className="btn btn-primary mt-1" href={this.props.project.github_urls[1]} target="_blank" rel="noreferrer">Frontend code</a>
+                                <a type="button" className="btn btn-primary mr-md-5 mr-1 mt-1" href={this.props.project.buttons[0].url} target="_blank" rel="noreferrer">{this.props.project.buttons[0].name}</a>
+                                <a type="button" className="btn btn-primary mt-1" href={this.props.project.buttons[1].url} target="_blank" rel="noreferrer">{this.props.project.buttons[1].name}</a>
                             </div>
                         }
                     </div>

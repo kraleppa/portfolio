@@ -23,6 +23,10 @@ export const language = {
         name: 'Erlang',
         color: '#b83998'
     },
+    HTML: {
+        name: 'HTML',
+        color: '#e34c26'
+    },
 }
 
 export const parseString = (string) => {
@@ -33,6 +37,7 @@ export const parseString = (string) => {
         case 'SQL': return language.SQL;
         case 'ELIXIR': return language.ELIXIR;
         case 'ERLANG': return language.ERLANG;
+        case 'HTML': return language.HTML;
         default: return null;
     }
 }
