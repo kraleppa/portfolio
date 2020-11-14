@@ -2,6 +2,19 @@ import {language} from "./languages";
 
 export const projects = [
     {
+        id: 1,
+        name: 'Gracz.pl',
+        buttons: [
+            {name: 'Backend code', url: 'https://github.com/kraleppa/gracz-pl-back'},
+            {name: 'Frontend code', url: 'https://github.com/kraleppa/gracz-pl-web'}
+        ],
+        image_url: 'https://github.com/kraleppa/gracz-pl-web/raw/master/img-readme/unlogged.gif',
+        languages: [language.JAVA, language.JS],
+        end_date: new Date(2020, 9, 23),
+        description: "Used Java with Spring framework and React.js to create an online game shop. This project taught me a lot about authentication/authorization with JWT in web applications. Also it really improved my understanding of REST API",
+        size: 10,
+    },
+    {
         id: 2,
         name: 'XD Eats',
         buttons: [
