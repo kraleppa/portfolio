@@ -26,11 +26,19 @@ export const projects = [
         end_date: new Date(2020, 7, 30),
         description: "Used Python and React.js to create a web application that helps users to find out recipe for meal that they can prepare. This project won for my team third place during the 4th edition of Hacknarök hackathon.",
         size: 5,
-        badge: {
-            image_url: 'https://scontent.fktw2-1.fna.fbcdn.net/v/t1.0-9/83603732_780553515777877_1210386367436029952_o.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=48ztcWZioSYAX9Skbkn&_nc_ht=scontent.fktw2-1.fna&oh=96dc76c2194e0b773fcc36130b5160ec&oe=5FC63168',
-            url: 'https://hacknarok.eestec.pl/',
-            description: '3rd place award'
-        }
+    },
+    {
+        id: 3,
+        name: 'Evolution game',
+        buttons: [
+            {name: 'Backend code', url: 'https://github.com/kraleppa/evolution-game-v2'},
+            {name: 'Frontend code', url: 'https://github.com/kraleppa/evolution-game-web'}
+        ],
+        image_url: 'https://github.com/kraleppa/evolution-game-web/raw/master/screenShots/preview.gif',
+        languages: [language.JAVA, language.JS],
+        end_date: new Date(2020, 12, 1),
+        description: "User Java and JavaScript to create visualize evolution. It really improved my understanding of object oriented modeling and using websockets on backend and also on frontend",
+        size: 8
     },
     {
         id: 5,
@@ -57,7 +65,7 @@ export const projects = [
         size: 6
     },
     {
-        id: 3,
+        id: 32,
         name: 'eRecruitment',
         buttons: [
             {name: 'Code', url: 'https://github.com/kraleppa/e-recruitment'},
