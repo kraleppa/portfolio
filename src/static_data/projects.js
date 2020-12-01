@@ -36,7 +36,7 @@ export const projects = [
         ],
         image_url: 'https://github.com/kraleppa/evolution-game-web/raw/master/screenShots/preview.gif',
         languages: [language.JAVA, language.JS],
-        end_date: new Date(2020, 12, 1),
+        end_date: new Date(2020, 11, 1),
         description: "User Java and JavaScript to create visualize evolution. It really improved my understanding of object oriented modeling and using websockets on backend and also on frontend",
         size: 8
     },
