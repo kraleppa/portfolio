@@ -28,8 +28,8 @@ class AboutMe extends React.Component {
                             <p>
                             I have been interested in science and new technologies since primary school.
                             My first meeting with programming took place in high school during computer science classes.
-                            Since that lesson I knew that this is my future. <br/>
-                            Currently a big fan of Java and Elixir.
+                            Since that moment I knew that this is my future. <br/>
+                            Currently I am a big fan of Java and Elixir.
                             My goal is to become full-stack developer by improving my skills from area of software development.
                             </p>
                         </div>
@@ -42,7 +42,7 @@ class AboutMe extends React.Component {
                             <p>
                                 Besides programming and science I have plenty of other hobbies, like swimming, video games or cycling,
                                 but my biggest love is music.
-                                I have been playing a guitar since high school and I am going to learn playing a piano.
+                                I have been playing a guitar since high school and I am currently learning a piano.
                                 I am also interested in music production and composition.
                                 My adventure with music really improved my creativity.
 

@@ -11,7 +11,7 @@ export const projects = [
         image_url: 'https://github.com/kraleppa/gracz-pl-web/raw/master/img-readme/unlogged.gif',
         languages: [language.JAVA, language.JS],
         end_date: new Date(2020, 9, 23),
-        description: "Used Java with Spring framework and React.js to create an online game shop. This project taught me a lot about authentication/authorization with JWT in web applications. Also it really improved my understanding of REST API",
+        description: "Used Java with Spring framework and React.js to create an online game shop. This project taught me a lot about about authentication and authorization process in web applications. Also it improved my understanding of REST API",
         size: 10,
     },
     {
@@ -24,7 +24,7 @@ export const projects = [
         image_url: 'https://github.com/Better-Team-XD/hacknarok-web/raw/master/screenshots/usecase.gif',
         languages: [language.PYTHON, language.JS],
         end_date: new Date(2020, 7, 30),
-        description: "Used Python and React.js to create a web application that helps users to find out recipe for meal that they can prepare. This project won for my team third place during the 4th edition of Hacknarök hackathon.",
+        description: "Used Python and React.js to create a web application that helps users to find recipe for meal that they can prepare. This project won for my team third place during the 4th edition of Hacknarök hackathon.",
         size: 5,
     },
     {
@@ -37,7 +37,7 @@ export const projects = [
         image_url: 'https://github.com/kraleppa/evolution-game-web/raw/master/screenShots/preview.gif',
         languages: [language.JAVA, language.JS],
         end_date: new Date(2020, 11, 1),
-        description: "User Java and JavaScript to create visualize evolution. It really improved my understanding of object oriented modeling and using websockets on backend and also on frontend",
+        description: "Used Java and React.js to create simple simulation of evolution. It really improved my understanding of object oriented modeling and taught me a lot about websockets in backend and also in frontend applications",
         size: 8
     },
     {
@@ -65,7 +65,7 @@ export const projects = [
         size: 6
     },
     {
-        id: 32,
+        id: 8,
         name: 'eRecruitment',
         buttons: [
             {name: 'Code', url: 'https://github.com/kraleppa/e-recruitment'},
@@ -115,7 +115,7 @@ export const projects = [
     },
 
     {
-        id: 8,
+        id: 33,
         name: 'IT website',
         buttons: [
             {name: 'Code', url: 'https://github.com/kraleppa/bootstrap-website'},

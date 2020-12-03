@@ -1,6 +1,5 @@
 import React from 'react';
-import {resumeLink} from "../static_data/data";
-
+import resume from '../static_data/Resume.pdf'
 class Resume extends React.Component {
     render() {
         return (
@@ -13,7 +12,7 @@ class Resume extends React.Component {
                         Feel free to download my resume
                     </div>
                     <div className="row-cols-12 text-center">
-                        <a type="button" className="btn btn-primary" href={resumeLink} download>Download</a>
+                        <a type="button" className="btn btn-primary" href={resume} download>Download</a>
                     </div>
                 </div>
             </div>
